@@ -1,0 +1,43 @@
+{
+  "name": "nextjs-route-generator",
+  "displayName": "Next.js Route Generator",
+  "description": "Quickly scaffold Next.js App Router routes from the explorer",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "nextjs-routes.createRoute",
+        "title": "Create Next.js Route"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "nextjs-routes.createRoute",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.1.0",
+    "@vscode/vsce": "^3.0.0"
+  }
+}
