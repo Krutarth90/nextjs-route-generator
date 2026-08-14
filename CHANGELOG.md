@@ -11,6 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.1] — 2026-08-14
+
+### Added
+- Added VS Code Marketplace metadata (`publisher`, `repository`, `keywords`, etc.) to `package.json`.
+- Added MIT `LICENSE` file.
+
+### Fixed
+- Fixed publisher ID correctly pointing to `krutarth.pipaliya`.
+
+---
+
 ## [0.1.0] — 2026-08-14
 
 ### Added

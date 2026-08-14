@@ -2,7 +2,7 @@
   "name": "nextjs-route-generator",
   "displayName": "Next.js Route Generator",
   "description": "Scaffold Next.js App Router routes from the Explorer — nested paths, dynamic segments, route groups, parallel & intercepting routes, all with typed boilerplate.",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "publisher": "krutarth.pipaliya",
   "author": {
     "name": "Krutarth Pipaliya"
