@@ -1,14 +1,37 @@
 {
   "name": "nextjs-route-generator",
   "displayName": "Next.js Route Generator",
-  "description": "Quickly scaffold Next.js App Router routes from the explorer",
+  "description": "Scaffold Next.js App Router routes from the Explorer — nested paths, dynamic segments, route groups, parallel & intercepting routes, all with typed boilerplate.",
   "version": "1.0.0",
+  "publisher": "Krutarth90",
+  "author": {
+    "name": "Krutarth Pipaliya"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Krutarth90/nextjs-route-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/Krutarth90/nextjs-route-generator/issues"
+  },
+  "homepage": "https://github.com/Krutarth90/nextjs-route-generator#readme",
+  "keywords": [
+    "nextjs",
+    "next.js",
+    "app router",
+    "route generator",
+    "scaffold",
+    "boilerplate",
+    "typescript"
+  ],
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
   "engines": {
     "vscode": "^1.80.0"
   },
-  "categories": [
-    "Other"
-  ],
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
@@ -32,7 +55,8 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
