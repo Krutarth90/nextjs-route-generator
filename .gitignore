@@ -1,5 +1,24 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
-*.vsix
-.vscode-test/
 out/
+
+# VS Code Extension testing
+.vscode-test/
+
+# Packaged extension
+*.vsix
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
